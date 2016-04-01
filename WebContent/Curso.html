@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Cadastro de Curso</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!--BEGIN #signup-form -->
+    <div id="signup-form">
+        
+        <!--BEGIN #subscribe-inner -->
+        <div id="signup-inner">
+        
+        	<div class="clearfix" id="header">
+        	
+        		
+			
+                <h1>Sistema de Cadastro de Curso!</h1>
+
+            
+            </div>
+			<center><img id="cadastro_icon" src="./image/cadastro_icon.png"/></center>        
+            <form id="informacoes" action="ManterCurso.do" method="post">
+            	<p>
+
+                <label for="name">Código</label>
+                <input type="text" id="Codigo"  name="Codigo" />
+                </p>		
+				
+                <p>
+
+                <label for="name">Nome do Curso</label>
+                <input type="text" id="nomeDoCurso"  name="Nome" />
+                </p>
+                
+                <p>
+                <label for="dataIni">Data de Inicio</label>
+                <input type="text" id="dataDeInicio"  name="DataInicio" />
+                </p>
+                
+                <p>
+
+                <label for="dataFim">Data de Término</label>
+                <input  type="text" id="dataDeTermino" name="DataFim"/>
+                </p>
+                
+                <p>
+                <label for="hora">Horarios</label>
+                    <select  id="horario" name="Horario">
+                        <option>0710 até 0850</option>
+                        <option>0910 até 1050</option>
+                        <option>1310 até 1450</option>
+                        <option>1510 até 1650</option>
+                        <option>1710 até 1850</option>
+                    </select>
+                </p>
+                
+                <p>
+                <label for="vagas">Número de Vagas</label>
+                <input type="number" name="NumeroVagas" />
+                </p>
+                
+                <p>
+                <label for="valor">Valor</label>
+                <input type="text" id="valor" name="Valor"/>
+                </p>
+
+                <p>
+                <label for="lab">Laboratório/Sala</label>
+                <input type="text" id="text" name="LabSala"/>
+                </p>
+                
+                <p>
+                <label for="descricao">Descrição</label>
+                <input type="text" id="valor" name="Descricao"/>
+                </p>
+
+                <p>
+                <label for="materiais">Materiais</label>
+                <input type="text" id="text" name="MatSoftwares"/>
+                </p>
+			
+                <select  id="horario" name="Horario">
+                    <option>Informática</option>
+                    <option>Artes</option>
+                </select>
+                <p>
+				 <p>
+                <label for="area">Área</label>
+                <input type="text" id="area" name="Area"/>
+                </p>
+				 <p>
+                <label for="acao">Ação</label>
+                <input type="text" id="acao" name="Açao"/>
+                </p>
+                <button id="submit" type="submit" name="cadastrar">Cadastrar</button>
+				
+                </p>
+            </form>
+				<button id="submit" type="submit" name="alterar">Alterar</button>
+
+				<button id="submit" type="submit" name="excluir">Excluir</button>
+				<button id="submit" type="submit" name="consultar">Consultar</button>
+                <button id="submit" type="submit" name="sair">Sair</button>
+            </div>
+        
+        </div>
+            </div>
+
+</body>
+</html>

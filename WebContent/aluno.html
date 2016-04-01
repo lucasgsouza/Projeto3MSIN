@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Cadastro de Aluno</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!--BEGIN #signup-form -->
+    <div id="signup-form">
+        
+        <!--BEGIN #subscribe-inner -->
+        <div id="signup-inner">
+        
+        	<div class="clearfix" id="header">
+        	
+        		
+			
+                <h1>Cadastrar Aluno!</h1>
+
+            
+            </div>
+			<center><img id="cadastro_icon" src="./image/cadastro_icon.png"/></center>        
+            <form id="informacoes" action="ManterAluno.do" method="post" >
+            	
+                <p>
+
+                <label for="name">Nome do Aluno</label>
+                <input type="text" id="nomeDoAluno"  name="Nome" />
+                </p>
+                
+                <p>
+                <label for="dataIni">RA do Aluno</label>
+                <input type="text" id="dataDeInicio"  name="Ra" />
+                </p>
+                
+                <p>
+
+                <label for="endereco">Endereço</label>
+                <input  type="text" id="endereco" name="Endereco"/>
+                </p>
+                
+               
+                <p>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="Email" />
+                </p>
+                
+                <p>
+                <label for="telefone">Telefone</label>
+                <input type="number" id="telefone" name="Telefone"/>
+                </p>
+
+                <p>
+                <label for="lab">RG</label>
+                <input type="number" id="tel" name="RG"/>
+                </p>
+                
+                <p>
+                <label for="cpf">CPF</label>
+                <input type="number" id="cpf" name="CPF"/>
+                </p>
+
+                
+                <p>
+                <button id="submit" type="submit" name="cadastrar">Cadastrar</button>
+				<button id="submit" type="submit" name="alterar">Alterar</button>
+				<button id="submit" type="submit" name="excluir">Excluir</button>
+				<button id="submit" type="submit" name="consultar">Consultar</button>
+                <button id="submit" type="submit" name="sair">Sair</button>
+                </p>
+            </form>
+				
+            </div>
+        
+        </div>
+            </div>
+
+</body>
+</html>

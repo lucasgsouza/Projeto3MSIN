@@ -1,6 +1,0 @@
-usuario=2
-senha=1
-usuario=2
-senha=25
-usuario=Keila
-senha=4

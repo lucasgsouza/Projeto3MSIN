@@ -1,8 +1,0 @@
-usuario=2
-senha=2
-usuario=Felipe Teles
-senha=244
-usuario=adm 
-senha=adm
-usuario=Felipe Teles
-senha=21
