@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="src/Jars/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="src/Jars/mysql-connector-java-5.1.20-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lucas Souza/workspace/Projeto3MSIN/src/Jars/SwingSets2(BeautyEyeLNFDemo).jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

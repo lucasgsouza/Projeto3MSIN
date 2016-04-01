@@ -1,0 +1,4 @@
+Matricula:1|Data de Matricula:22/22/2222|Codigo do Curso:4|Valor (R$):120.52|RA do Aluno:3|Status da Matricula:A|Status de Pagamento:Selecione
+Matricula:1|Data de Matricula:22/22/2222|Codigo do Curso:4|Valor (R$):120.52|RA do Aluno:3|Status da Matricula:A|Status de Pagamento:Selecione
+Matricula:6|Data de Matricula:22/22/2222|Codigo do Curso:4|Valor (R$):120.52|RA do Aluno:2|Status da Matricula:C|Status de Pagamento:P
+Matricula:6|Data de Matricula:22/22/2222|Codigo do Curso:4|Valor (R$):120.52|RA do Aluno:2|Status da Matricula:C|Status de Pagamento:P
