@@ -27,7 +27,11 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".List_Item"></activity>
+        <activity android:name=".List_Item" />
+        <activity
+            android:name=".DetalheCurso"
+            android:label="@string/title_activity_detalhe_curso"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,7 @@
 package com.example.lucassouza.myprojectapp;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -11,7 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class Main2Activity extends AppCompatActivity {
+public class Main2Activity extends Activity {
 
     ListView listView;
 
@@ -46,10 +48,9 @@ public class Main2Activity extends AppCompatActivity {
                 // ListView Clicked item value
                 String  itemValue    = (String) listView.getItemAtPosition(position);
 
-                // Show Alert
-                Toast.makeText(getApplicationContext(),
-                        "  ListItem : " +itemValue , Toast.LENGTH_LONG)
-                        .show();
+                Intent intent = new Intent(Main2Activity.this, DetalheCurso.class);
+                intent.putExtra("nome", itemValue);
+                startActivity(intent);
 
             }
 
